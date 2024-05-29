@@ -1,0 +1,472 @@
+/* header section  */
+.header_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.desktop_main_menu ul {
+    gap: 20px;
+}
+
+
+.desktop_main_menu ul li a {
+    font-size: var(--fs-20);
+    font-weight: var(--fw-600);
+    color: var(--color-w);
+    transition: var(--ts-3s);
+}
+
+.desktop_main_menu ul li a:hover {
+    color: var(--primary_color);
+}
+
+
+
+/* banner section  */
+.banner_section img {
+    max-height: 650px;
+}
+
+
+/* buy beats section  */
+.buy_beat_header_box {
+    margin-bottom: 1.2rem;
+}
+.buy_beat_header_box p {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    justify-content: center;
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--color-b);
+}
+
+.buy_beat_header_box p img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.buy_beats_bottom_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--color-w);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px -6px rgba(0, 0, 0, 0.15);
+    margin-bottom: 15px;
+}
+
+.buy_beats_wrapper h4 {
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--color-b);
+    /* letter-spacing: var(--letter-sp-24); */
+}
+.buy_beats_wrapper h4  span{
+    font-weight: var(--fw-700);
+}
+
+.buy_beats_wrapper h5 {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-600);
+    color: var(--primary_color);
+    margin-left: 7px;
+}
+
+.music_header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    margin-bottom: 16px;
+}
+
+.music_header_description {
+    max-width: 697px;
+    width: 100%;
+}
+.music_player_section {
+    width: 100%;
+    min-height: 100px;
+    background-color: var(--bg-black);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.share_icon button i {
+    color: white;
+    font-size: 20px;
+}
+
+
+.choose_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose_header {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 697px;
+    width: 100%;
+}
+
+.choose_header p {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.choose_header button {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+
+/* licensing section  */
+
+.licensing_section {
+    background-color: #F5F5F5;
+}
+
+.licensing_header {
+    margin-bottom: 40px;
+}
+
+.licensing_btn_box button {
+    max-width: 260px;
+    width: 100%;
+    color: var(--color-b);
+}
+
+.licensing_btn_box span  {
+    font-size: var(--fs-28);
+    font-weight: var(--fw-800);
+    display: block;
+    margin-bottom: 7px;
+}
+
+
+.licensing_content {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 30px 60px -12px, rgba(0, 0, 0, 0.2) 0px 18px 36px -18px;
+    transition: all .2s ease-in-out
+}
+
+.licensing_content:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .3);
+}
+
+.licensing_content ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    margin-bottom: 30px;
+}
+
+.licensing_content ul li {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-500);
+    margin-left: 10px;
+    position: relative;
+}
+
+.licensing_content ul li::before {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    content: '\f0da';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: var(--fs-14);
+    color: var(--primary_color);
+}
+
+.licensing_content a {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-600);
+    width: 100%;
+    display: block;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.licensing_active {
+    background-color: black;
+    
+}
+.licensing_content.licensing_active ul li {
+    color: white;
+    
+}
+
+.licensing_content.licensing_active a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+/* simple section  */
+.simple_header {
+    margin-bottom: 45px;
+}
+
+.simple_wrapper h2 {
+    font-size: 3.5rem;
+    font-weight: var(--fw-600);
+    color: var(--primary_color);
+}
+.simple_wrapper h3 {
+    font-size: var(--fs-28);
+    font-weight: var(--fw-600);
+    color: var(--color-b);
+}
+
+.simple_wrapper p {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--color-b);
+}
+
+
+
+
+/* release section  */
+.release_section {
+    background-color: var(--bg);
+}
+.release_header {
+    max-width: 868px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+
+.release_content img {
+    max-width: 748px;
+    width: 100%;
+}
+
+
+.release_bottom p {
+    margin-bottom: 2rem;
+}
+
+.release_bottom button {
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+/* checkout section  */
+.checkout_section {
+    background-color: var(--bg);
+}
+
+.checkout_header h3 {
+    padding-bottom: 23px;
+}
+
+
+.checkout_thumbnail_wrapper div img {
+    width: 100%;
+    max-height: 337px;
+}
+
+.checkout_content h3 {
+    font-size: var(--fs-28);
+    font-weight: var(--fw-600);
+    color: var(--primary_color);
+    text-transform: var(--text-ts-capitalize);
+    transition: all .3e ease;
+    margin: 20px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.checkout_content h3:hover {
+    color: black;
+}
+
+
+.checkout_content a span {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-400);
+    color: var(--primary_color);
+    transition: all .3e ease;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.checkout_content a span:hover {
+    color: black;
+}
+
+.checkout_content p {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-400);
+    color: var(--color-b);
+    margin-bottom: 20px;
+}
+
+.checkout_content button {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-400);
+    color: var(--primary_color);
+    text-transform: capitalize;
+    transition: all .3e ease;
+}
+
+.checkout_content button:hover {
+    color: black;
+}
+
+
+
+/* subscribe section  */
+.subscribe_content h3 {
+    font-size: var(--fs-40);
+    font-weight: var(--fw-600);
+    color: var(--color-b);
+    line-height: 50px;
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.subscribe_content h3 span {
+    color: var(--primary_color);
+}
+
+
+.subscribe_content p {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-500);
+    color: var(--color-b);
+    max-width: 550px;
+    width: 100%;
+}
+
+.subscribe_img img {
+    max-height: 356px;
+    max-width: 412px;
+    width: 100%;
+}
+
+
+
+/* sign up section  */
+/* .form_container {} */
+
+.form_input_container label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(85, 89, 92);
+    text-transform: capitalize;
+}
+
+.input_controller  {
+    margin-bottom: 16px;
+}
+
+.input_controller input {
+    min-width: 267px;
+    width: 100%;
+    height: 43px;
+    border: transparent;
+    padding: 9px;
+}
+
+.form_container button {
+    width: 100%;
+}
+
+
+/* testimonial section  */
+.testimonial_header {
+    margin-bottom: 38px;
+}
+.testimonial_thumbnail img {
+    max-height: 106px;
+    border-radius:10px;
+}
+
+
+.questions_section {
+    padding-top: 75px;
+}
+
+.question_box {
+    max-width: 730px;
+    width: 100%;
+    background-color: black;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 148px;
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+}
+
+
+.question_box::after {
+    position: absolute;
+    content: " ";
+    top: px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background-image: url('../assets/icon/mail_icon.png');
+    z-index: 2;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.question_item {
+    position: relative;
+    z-index: 10;
+}
+
+.question_item a {
+    color: var(--color-w);
+    font-size: 62px;
+}
+
+.question_item h3 {
+    color: var(--color-w);
+    margin: 0px;
+}
+
+.question_item h3 span {
+    color: var(--primary_color);
+}
+
+.question_item button {
+    min-width: 248px;
+    width: 100%;
+    color: var(--color-b);
+}
+
+.question_item button:hover {
+    background-color: white;
+}
+
